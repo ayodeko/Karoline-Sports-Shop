@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/eden_bg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#5fff"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_gravity="center"
+            android:id="@+id/blouse_button"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_button"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="BLOUSE"/>
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/pants_button"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:background="@drawable/light_button"
+            android:textStyle="bold"
+            android:text="PANTS"/>
+
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_button"
+            android:textSize="30sp"
+            android:id="@+id/jacket_button"
+            android:textStyle="bold"
+            android:text="JACKET"/>
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:id="@+id/dress_button"
+            android:background="@drawable/light_button"
+            android:textStyle="bold"
+            android:text="DRESS"/>
+
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:id="@+id/top_button"
+            android:background="@drawable/dark_button"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="TOP"/>
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/shoes_button"
+            android:textSize="30sp"
+            android:background="@drawable/light_button"
+            android:textStyle="bold"
+            android:text="SHOES"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

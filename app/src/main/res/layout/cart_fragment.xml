@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/blue_bg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewCart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+        
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dark_button"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Checkout Now"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="17sp"
+            android:text="or Continue Shopping"
+            android:textColor="#a9a9a9"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

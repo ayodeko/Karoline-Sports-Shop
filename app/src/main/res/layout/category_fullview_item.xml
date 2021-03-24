@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#57ccf7">
+
+        <ImageView
+            android:id="@+id/cart_item_image"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/item_cart1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cart_item_name"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="ShortSleeve Blue Jersey"/>
+
+            <TextView
+                android:id="@+id/cart_item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:text="#12,000"/>
+
+            <TextView
+                android:id="@+id/cart_item_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Material: Cotton"/>
+
+            <TextView
+                android:id="@+id/cart_item_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Color: Blue" />
+
+            <TextView
+                android:id="@+id/cart_item_delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Delivery: Within 1 Week"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_bg"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="110dp"
+            android:src="@drawable/chelsea_logo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Chelsea Mart"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="42dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:text="Login"
+            />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:background="#fff"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_height="170dp">
+
+            <EditText
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:id="@+id/username_editText"
+                android:layout_marginTop="20dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:backgroundTint="#000"
+                android:hint="Username"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:id="@+id/password_editText"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:backgroundTint="#000"
+                android:hint="Password"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/loginButton"
+                android:layout_marginRight="5dp"
+                android:background="#0f034e"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_play_arrow_black_24dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:onClick="createAccount"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:text="Create Account"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
